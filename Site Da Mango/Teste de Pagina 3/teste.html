@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste pagina 3</title>
+    <link rel="shortcut icon" href="../imagens/mango site icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <main>
+        <h1>exemplo</h1>
+    </main>
+    <!--../ Serve para voltar a pagina que está na pasta primária-->
+    <p>voltar para a <a href="../mango-site.html">Pagina 1</a></p>
+    <p>ou para a <a href="../Aniversario.html">Pagina 2</a></p>
+    <!--Teste de download-->
+    <ul>
+        <!--type="application/#" é para conseguir realizar o download de um arquivo-->
+        <li>Download De um Arquivo pdf: <a href="pdf e  .rar/Luan aniversario.pdf" download="Luan aniversario"
+            type="application/pdf">Luan</a></li>
+            <li>Download de um .rar <a href="pdf e  .rar/Pokemon - Fire Red Version (U) (V1.1).zip" download="Pokemon"
+                type="application/rar">Pokemon fire Red</a></li>
+            </ul>
+            <!--Resoluçao da imagem se adaptando de acordo com o tamanho da tela-->
+            <picture>
+                <source media="(max-width: 750px)" srcset="imagens/p.jpg" type="image/jpg">
+                <source media="(max-width: 1000px)" srcset="imagens/m.jpg" type="image/jpg">
+                <img src="imagens/g.jpg" alt="imagem flexível">
+            </picture>
+            <!--Video-->
+            <source media="(max-width: 17500px)" srcset="video/mp4">
+            <source media="(max-width: 1000px)" srcset="video/mp4">
+            <video poster="imagens/ziggs-dance-ziggs.gif" src="imagens/Steven Universe The Movie.mp4" width="700" controls autoplay loop></video>
+            <!--Audio-->
+            <p><audio src="imagens/Sneaky Snitch.mp3"controls autoplay></audio></p>
+            <h1>CSS com cor teste</h1>
+            <style>
+                div{
+                    /*Display inline block deixa na na mesma linha*/
+                    display: inline-block;
+                    background-color: blanchedalmond;
+                    border: 1px solid black;
+                    text-align: center;
+                    width: 200px;
+                    height: 200px;
+                    
+                }
+                /*Hover ao passar com o mouse em cima muda de cor */
+                div:hover{
+                    background-color: bisque;
+                }
+            </style>
+            <div id="bla">Bla</div>
+            <div id="ble">Ble</div>
+            <div id="bluh">Bluh</div>
+            
+    
+</body>
+</html>

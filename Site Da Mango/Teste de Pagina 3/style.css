@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/*Criar Gradiente entre cores*/
+body{
+    background-color: #ebe4dfad;
+    background-attachment: fixed;
+}
+
+p{
+    text-align: justify;
+}
+    
